@@ -73,5 +73,6 @@ def does_terminate(boot):
     
     return (accumulator, False)
 
-print(p1(process(data)))
-print(p2(process(data)))
+if __name__ == "__main__":
+    print(p1(process(data)))
+    print(p2(process(data)))
