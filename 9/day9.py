@@ -12,7 +12,7 @@ def p1(data, preamble_len):
     
 def valid(i, data, preamble_len):
     preamble = data[i - preamble_len:i]
-    preamble = list(set(preamble))
+    # preamble = list(set(preamble)) unnecessary!
     preamble.sort()
     j = 0
     k = len(preamble) - 1
